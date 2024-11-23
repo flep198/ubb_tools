@@ -12,11 +12,17 @@ First, the data should be organized in a way that the psrfits-files obtained fro
 
 WorkingDirectory/
 ├── search1/
+
 │   ├─ search1.cands
+
 │   └── UBB_observation_search1.fits (usually multiple files)
+
 ├── search2/
+
 │   ├─ search2.cands
+
 │   └─ UBB_observation_search2.fits (usually multiple files)
+
 └─ ......
 
 
