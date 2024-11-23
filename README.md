@@ -1,5 +1,4 @@
-
-ls
+## UBB Tools
 
 This repository is meant as collection of scripts to deal with timing data produced by the Effelsberg Ultra Broad Band (UBB) receiver. This repository was created to extract dynamic spectra of fast radio bursts combined over all sub-bands of the UBB. If you make use of any of these scripts please cite Eppel et al. 2024 (in prep.).
 
