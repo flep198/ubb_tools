@@ -11,6 +11,7 @@ The python scripts require a couple of standard packages and pulsar software to 
 First, the data should be organized in a way that the psrfits-files obtained from the UBB are located in sub-folders for every sub-band, i.e., there should be folders called "search1", "search2", "search3", etc. in your working directory. These folders should contain the psrfits-files of each band and a candidate list following the format used by [TransientX](https://github.com/ypmen/TransientX). Before running any of the scripts in this repository, you need to run a burst search first, e.g., using [TransientX](https://github.com/ypmen/TransientX) to create those candidate files. Your setup should look something like this:
 
 WorkingDirectory/
+
 ├── search1/
 
 │   ├─ search1.cands
