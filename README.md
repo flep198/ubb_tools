@@ -1,4 +1,4 @@
-## UBB Tools
+# UBB Tools
 
 This repository is meant as collection of scripts to deal with timing data produced by the Effelsberg Ultra Broad Band (UBB) receiver. This repository was created to extract dynamic spectra of fast radio bursts combined over all sub-bands of the UBB. If you make use of any of these scripts please cite Eppel et al. 2024 (in prep.).
 
@@ -6,7 +6,7 @@ Requirements:
 The python scripts require a couple of standard packages and pulsar software to be installed on your system: [dspsr](https://dspsr.sourceforge.net/), [psrchive](https://psrchive.sourceforge.net/manuals/python/) (python interface), [dm_phase](https://github.com/danielemichilli/DM_phase), matplotlib, numpy, scipy
 
 
-# Folder Structure
+## Folder Structure
 
 First, the data should be organized in a way that the psrfits-files obtained from the UBB are located in sub-folders for every sub-band, i.e., there should be folders called "search1", "search2", "search3", etc. in your working directory. These folders should contain the psrfits-files of each band and a candidate list following the format used by [TransientX](https://github.com/ypmen/TransientX). Before running any of the scripts in this repository, you need to run a burst search first, e.g., using [TransientX](https://github.com/ypmen/TransientX) to create those candidate files. Your setup should look something like this:
 
